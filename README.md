@@ -1,2 +1,2 @@
 # TravelAI
-![Architecture Diagram](images/Arch_Diagram.jpg)
+![Architecture Diagram](images/Arch_Diagram.png)
