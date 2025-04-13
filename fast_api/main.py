@@ -17,12 +17,12 @@ app = FastAPI()
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 
 # Snowflake connection details (update with your credentials)
-SNOWFLAKE_USER="Nishita"
-SNOWFLAKE_PASSWORD="Nishita@123"
-SNOWFLAKE_ACCOUNT="kv29280.us-east-2.aws"
-SNOWFLAKE_WAREHOUSE="COMPUTE_WH"
-SNOWFLAKE_DATABASE="nosu"
-SNOWFLAKE_SCHEMA="PUBLIC"
+SNOWFLAKE_USER="abc"
+SNOWFLAKE_PASSWORD="abc@123"
+SNOWFLAKE_ACCOUNT="abc.us-east-2.aws"
+SNOWFLAKE_WAREHOUSE="abc"
+SNOWFLAKE_DATABASE="abc"
+SNOWFLAKE_SCHEMA="abc"
 
 def get_snowflake_connection():
     return snowflake.connector.connect(
