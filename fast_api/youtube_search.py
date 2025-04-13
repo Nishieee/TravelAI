@@ -2,7 +2,7 @@ import requests
 
 # Tavily API Base URL
 TAVILY_API_URL = "https://api.tavily.com/search"
-TAVILY_API_KEY = "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"  # Replace with your API Key
+TAVILY_API_KEY = "apikey"  # Replace with your API Key
 
 def search_youtube(query, max_results=1):
     """
